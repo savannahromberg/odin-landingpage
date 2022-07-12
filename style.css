@@ -1,8 +1,15 @@
 
+* {
+    font-family: "roboto", sans-serif;
+}
 .hero {
     color: #f9faf8;
     background-color: #1f2937;
+}
 
+.title {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .info {
@@ -14,4 +21,13 @@
 .quote-section {
     background-color: #e5e7eb;
     
+}
+
+.join {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
 }
