@@ -50,8 +50,10 @@
 }
 
 .image {
-    width: 5px;
+    display: flex;
+    max-width: 100%;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .button {
