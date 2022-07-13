@@ -12,6 +12,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 15px 45px;
 }
 
 .logo {
@@ -31,6 +32,11 @@
     justify-content: space-around;
 }
 
+.heromain-right {
+    justify-content: flex-end;
+    align-self: center;
+}
+
 .title {
     font-size: 48px;
     font-weight: bolder;
@@ -44,7 +50,8 @@
 }
 
 .image {
-    align-items: space-around;
+    width: 5px;
+    height: auto;
 }
 
 .button {
@@ -75,4 +82,5 @@
 .footer {
     color: #f9faf8;
     background-color: #1f2937;
+    padding: 20px;
 }
