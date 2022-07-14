@@ -56,6 +56,7 @@ figure {
 img.scaled {
   width: 100%;
   border-radius: 25%;
+  border: thin #3882f6 solid;
 }
 
 .title {
@@ -95,15 +96,25 @@ img.scaled {
     justify-content: center;
 }
 
-.fashion-one, .fashion-two, .fashion-three, .fashion-four {
-    display: flex;
-    width: 5%;
-    height: 5%;
-}
-
 .quote-section {
     background-color: #e5e7eb;
-    
+    padding: 10% 20%;
+    color: #1f2937;
+}
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+.author {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .join {
