@@ -78,14 +78,14 @@ img.scaled {
     flex-wrap: wrap;
 }
 
-.button {
+.signup-button {
         color: #f9faf8; background: #3882f6; font-size: 18px; line-height: 10px; 
         padding: 10px 40px; border-radius: 15px; font-family: Roboto, serif; font-weight: bold; 
         text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; 
         display: inline-block;}
-    .button:hover {
+    .signup-button:hover {
         background: #2D69C6; }
-    .button:active {
+    .signup-button:active {
         background: #3882f6; }
 
 .info {
@@ -98,23 +98,25 @@ img.scaled {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 10% 20%;
-    color: #1f2937;
+    padding: 10% 25%;
 }
 .quote {
     display: flex;
     flex-wrap: wrap;
-    font-size: 36px;
-    font-weight: light;
+    line-height: 175%;
+    font-size: 46px;
+    font-weight: lighter;
     font-style: italic;
+    color: #1f2937;
 }
 .author {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     font-style: normal;
+    color: #1f2937;
 }
 
 .join {
