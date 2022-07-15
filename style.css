@@ -56,7 +56,7 @@
 
 figure {
     display: flex;
-    width: 50%;
+    flex-direction: column;
     text-align: center;
     font-style: italic;
     font-size: smaller;
@@ -65,12 +65,18 @@ figure {
     padding: 0.5em;
 }
 img.scaled {
-  width: 100%;
+  height: 15vh;
   border-radius: 25%;
   border: medium #e5e7eb solid;
 }
+img.scaled.no-border {
+    height: 20vh;
+    border-radius: 0;
+    border: none;
+  }
+
 figcaption {
-    align-self: flex-end;
+    align-self: center;
 }
 
 .title {
@@ -103,6 +109,10 @@ figcaption {
     font-weight: bold;
     background-color: #f9faf8;
     padding: 5%;
+}
+
+.images {
+    display: flex;
 }
 
 .info-header {
@@ -145,6 +155,7 @@ figcaption {
     padding: 1% 5%;
     border-radius: 10px;
     line-height: 0%;
+    align-items: center;
 }
 
 .call-sign {
@@ -172,7 +183,7 @@ figcaption {
     border-radius: 15px;
     font-family: Roboto, serif;
     font-weight: bold;
-    display: inline-block;
+    height: ;
 }
 .signup-button2:hover {
     background: #2D69C6; }
