@@ -8,6 +8,7 @@
     flex-direction: column;
     color: #f9faf8;
     background-color: #1f2937;
+    padding: 0 15vh;
 }
 
 .heromain {
@@ -31,10 +32,11 @@
 }
 
 .links {
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: normal;
     display: flex;
+    padding-right: 5%;
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: normal;
 }
 
 .heromain-left {
@@ -65,7 +67,7 @@ figure {
 img.scaled {
   width: 100%;
   border-radius: 25%;
-  border: medium #3882f6 solid;
+  border: medium #e5e7eb solid;
 }
 figcaption {
     align-self: flex-end;
@@ -127,6 +129,7 @@ figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    padding-right: 3em;
     font-size: 35px;
     font-weight: bold;
     font-style: normal;
